@@ -57,8 +57,19 @@ Obligate your own coco.yaml file and change the “--data “directory to your o
 
 
  #STEP6
-
  
+  
+````
+```
+ Converting to tensorRT
+ 
+
+!python /content/yolov5/export.py --device 0 --weights /content/last.pt --include engine
+
+```
+````
+#STEP7
+
 ````
 ```
 !python /content/yolov5/detect.py --weights /content/last.onnx --source /content/test.mp4 --conf-thres 0.75
