@@ -15,10 +15,13 @@ First imge is divided into M number grids which dimensinons are P x P. They are 
 Use ffmpeg for split the video into frames.
 
 
-“test.mp4  -r 30 -start_number 0  videoname%04d.jpg”
+“test.mp4  -r 30 -start_number 0  videoname%04d.jpg”  </p>
+
+
 
 
 #STEP2
+
 
 Set up the YOLOv5
 
@@ -71,4 +74,15 @@ RESULTS
 
 ![image](https://user-images.githubusercontent.com/104059824/220724517-61b035fd-56b4-4a16-b469-f6976ac91c8b.png)
 
+
+## Citation
+Use this bibtex to cite this repository:
+> @misc{matterport_maskrcnn_2017,\
+  title={yolov5},\
+  author={Waleed Abdulla},\
+  year={2020},\
+  publisher={Github},\
+  journal={GitHub repository},\
+  howpublished={\url{https://github.com/ultralytics/yolov5 }},\
+  }
 
